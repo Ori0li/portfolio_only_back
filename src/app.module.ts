@@ -15,7 +15,7 @@ import { CommentsModule } from './comments/comments.module';
       password: '1234',
       database: 'portfolio',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: false,
+      synchronize: true,
     }),
     ProjectsModule,
     CommentsModule,
